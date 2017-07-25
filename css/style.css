@@ -1,0 +1,294 @@
+.navbar {
+    height: 100px;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
+    background: transparent;
+}
+.navbar-brand {
+    padding-left: 40px;
+}
+.navbar-right {
+    margin-right: 50px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 13px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.846;
+    text-align: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: transparent;
+    color: #f1c40f;
+    border-bottom: 3px solid #f1c40f;
+    padding-bottom: 5px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e74c3c;
+    border-bottom: 3px solid #e74c3c;
+    padding-bottom: 5px;
+}
+.main-bg {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+header .jumbotron {
+    background: transparent;
+    color: #fff;
+}
+header .jumbotron .container {
+    margin-top: 50vh;
+    max-width: 400px;
+    float: left;
+    margin-left: 10%;
+}
+header .jumbotron h1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.75;
+    text-align: right;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+header .jumbotron p {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.75;
+    text-align: right;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+header .jumbotron span {
+    color: #a2ca28;
+}
+#main {
+    background: #a2ca28;
+    color: #fff;
+    padding-top: 10%;
+}
+.infos {
+    margin-bottom: 10%
+}
+#main h2 {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.25;
+  text-align: left;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 10px
+}
+
+#main p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.714;
+  text-align: left;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.main-icon {
+    width: 45px;
+}
+
+#main a {
+    text-decoration: none;
+    color: #a2ca28;
+    font-weight: bold;
+}
+
+#main .infos a {
+    color: #fff;
+}
+
+.main-cols {
+    margin-bottom: 40px;
+}
+
+.text-info {
+    background: #fff;
+    padding: 0 50px;
+    height: 350px;
+    padding-top: 5%;
+}
+
+.text-info h5 {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(253, 99, 78);
+  text-transform: uppercase;
+  line-height: 1.571;
+  text-align: center;
+    font-weight: bold;
+}
+
+.text-info h4 {
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(162, 202, 40);
+  text-transform: uppercase;
+  line-height: 0.857;
+  text-align: center;
+}
+
+.text-info h6 {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(101, 110, 116);
+  line-height: 1.857;
+  text-align: center;
+    font-weight: bold;
+}
+
+.text-info p>a {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #a2ca28;
+    line-height: 1.857;
+    font-weight: bold;
+    float: right;
+}
+
+.text-info .sm-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-info {
+    height: 350px;
+    overflow: hidden;
+    padding: 0;
+}
+
+#about {
+    background: #fd634e;
+    color: #fff;
+}
+
+#about .img-info {
+    height: 250px;
+}
+
+.box-right {
+    background: #a2ca28;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+
+#about .box-right h4 {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 0.75;
+  text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+#about .box-right h6 {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.615;
+  text-align: left;
+}
+
+
+#contact {
+    text-align: center;
+    color: #fff;
+}
+
+#contact .jumbotron {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/contact.jpeg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 0;
+}
+
+#contact .jumbotron .container {
+    margin-top: 25vh;
+    width: 50%;
+}
+
+#contact h1 {
+    font-size: 4vh;
+}
+
+#contact p {
+    font-size: 2vh;
+}
+
+footer {
+    background: #0d1119;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+footer h4 {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 0.8;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+footer p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(130, 151, 167);
+  line-height: 1.714;
+  text-align: left;
+}
+
+footer h3 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer .social-icon {
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FD634E;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: transparent;
+}
